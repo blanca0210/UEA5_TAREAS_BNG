@@ -1,0 +1,27 @@
+body{
+    background-color: #FF00FF;
+    color: #00FFFF;
+    font-size: 35px;
+}
+
+h1{
+    color: #FF0000;
+}
+
+p{
+    color: #0000FF;
+}
+
+div{
+    background-color: #AAAADD;
+    padding: 20px;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: #AA00DD;
+    margin: 100px;
+    border-radius: 25px;
+}
+
+img{
+    border-radius: 30%;
+}
