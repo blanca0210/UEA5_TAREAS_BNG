@@ -20,8 +20,20 @@ div{
     border-color: #AA00DD;
     margin: 100px;
     border-radius: 25px;
+    margin: 20px;
 }
 
-img{
+.imgRound{
     border-radius: 30%;
+}
+
+.fotos{
+background-color: hotpink;
+border-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+a{
+    color: #FF0000;
 }
