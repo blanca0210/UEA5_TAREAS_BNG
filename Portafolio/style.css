@@ -1,11 +1,13 @@
 body{
-    background-color: #e47fe4;
+    background-color: #7f0aad;
     color: #80abeb;
     font-size: 35px;
 }
 
 h1{
-    color: #FF0000;
+    color: #d4cece;
+    font-size: 65px;
+    text-shadow: #9c50f1;
 }
 
 p{
@@ -14,13 +16,11 @@ p{
 }
 
 div{
-    background-color: #AAAADD;
-    padding: 20px;
-    border-style: dotted;
+    background-color: #b07deb;
     border-width: 10px;
     border-color: #AA00DD;
     margin: 100px;
-    border-radius: 25px;
+
     margin: 20px;
 }
 
@@ -29,12 +29,37 @@ div{
 }
 
 .fotos{
-background-color: #e47fe4;
+background-color: #e794e7;
 border-style: none;
+flex-direction: row;
+flex-wrap: wrap;
 margin: 0px;
 padding: 0px;
+justify-content: center;
 }
 
 a{
-    color: #FF0000;
+    color: #c4c0c0;
+}
+
+.container div{
+    background-color: #b07deb;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    background-color: #e47fe4;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media(max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
 }
